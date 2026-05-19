@@ -108,11 +108,11 @@ export const personalProjects = [
       "A community platform where entrepreneurs register, connect with peers, discuss business challenges, book paid sessions with expert advisors, chat in real time, and attend community events — all powered by a subscription-based model.",
     tech: ["NestJS", "PostgreSQL", "AWS Lambda", "AWS SQS", "WebSocket", "Stripe Payment Gateway"],
     images: [
-      { src: "projects/sidekix/home.png", caption: "Home & journey hub" },
-      { src: "projects/sidekix/community-feed.png", caption: "Community feed & polls" },
-      { src: "projects/sidekix/advisor-profile.png", caption: "Advisor profiles" },
-      { src: "projects/sidekix/schedule-session.png", caption: "Session booking" },
-      { src: "projects/sidekix/poll-comments.png", caption: "Discussions & comments" },
+      { src: `${import.meta.env.BASE_URL}projects/sidekix/home.png`, caption: "Home & journey hub" },
+      { src: `${import.meta.env.BASE_URL}projects/sidekix/community-feed.png`, caption: "Community feed & polls" },
+      { src: `${import.meta.env.BASE_URL}projects/sidekix/advisor-profile.png`, caption: "Advisor profiles" },
+      { src: `${import.meta.env.BASE_URL}projects/sidekix/schedule-session.png`, caption: "Session booking" },
+      { src: `${import.meta.env.BASE_URL}projects/sidekix/poll-comments.png`, caption: "Discussions & comments" },
     ],
     points: [
       "Built backend for a community platform where entrepreneurs connect, discuss challenges, and access expert advisors",
@@ -133,10 +133,10 @@ export const personalProjects = [
       "A volunteering portal built in collaboration with Punjab Police, Fit India, Bhakra Beas Management Board, and Sports Authority of India — empowering 100+ villages through health campaigns, blood donation drives, cycling events, and community programs across Nangal and surrounding regions.",
     tech: ["Next.js", "Node.js", "Express.js", "MySQL", "Capacitor", "PWA"],
     images: [
-      { src: "projects/nbc/hero.png", caption: "Homepage & volunteer CTA" },
-      { src: "projects/nbc/partners.png", caption: "Official partners & initiatives" },
-      { src: "projects/nbc/event-registration.png", caption: "Event participation form" },
-      { src: "projects/nbc/community-stats.png", caption: "Community impact stats" },
+      { src: `${import.meta.env.BASE_URL}projects/nbc/hero.png`, caption: "Homepage & volunteer CTA" },
+      { src: `${import.meta.env.BASE_URL}projects/nbc/partners.png`, caption: "Official partners & initiatives" },
+      { src: `${import.meta.env.BASE_URL}projects/nbc/event-registration.png`, caption: "Event participation form" },
+      { src: `${import.meta.env.BASE_URL}projects/nbc/community-stats.png`, caption: "Community impact stats" },
     ],
     points: [
       "Built full stack volunteering platform where admins post events and users register to participate",
